@@ -105,7 +105,8 @@ header nav .container .nav__links {
   header nav .container .nav__links {
     display: none;
   }
-  header nav .container .bars-icon:hover + .nav__links {
+
+  header nav .container .bars-icon:hover+.nav__links {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -163,7 +164,7 @@ header nav .container .nav__links .active {
   position: absolute;
   left: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(12%, -50%);
   padding: 50px;
   line-height: 1.6;
   width: 50%;
@@ -173,6 +174,7 @@ header nav .container .nav__links .active {
   .landing .txt {
     width: 100%;
     padding: 10px;
+    transform: translate(0, -50%);
   }
 }
 
@@ -193,7 +195,7 @@ header nav .container .nav__links .active {
 
 .landing .link {
   position: absolute;
-  left: 50px;
+  left: 9.5%;
   top: 67%;
   background-color: #1f2021;
   padding: 16px 26px;
@@ -413,7 +415,7 @@ header nav .container .nav__links .active {
   letter-spacing: 1px;
 }
 
-.services .content > .txt p {
+.services .content>.txt p {
   color: #eee;
   text-shadow: 0 0 5px black;
 }
